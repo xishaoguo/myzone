@@ -1,0 +1,58 @@
+{
+  "id": "943094",
+  "name": "erxiao",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5810638",
+      "name": "声音开",
+      "font_class": "shengyinkai",
+      "unicode": "e6af",
+      "unicode_decimal": 59055
+    },
+    {
+      "icon_id": "5810646",
+      "name": "声音关",
+      "font_class": "shengyinguan",
+      "unicode": "e6b1",
+      "unicode_decimal": 59057
+    },
+    {
+      "icon_id": "1078218",
+      "name": "下一曲40",
+      "font_class": "xiyiqu",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "6217667",
+      "name": "暂停",
+      "font_class": "zanting",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "4372238",
+      "name": "停止",
+      "font_class": "tingzhi",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    },
+    {
+      "icon_id": "1164178",
+      "name": "上一曲",
+      "font_class": "previous",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "4022254",
+      "name": "播放",
+      "font_class": "play_icon",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}
