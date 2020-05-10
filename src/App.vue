@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <div class="main clearfix">
-      <div class="mp3-player">
+    <div class="main clearfix" lazyload>
+      <div class="mp3-player" lazyload>
         <audio ref="audio" autoplay="autoplay" id="audioDom"></audio>
         <i id="mp3_prev" class="iconfont icon-previous" @click="prev"></i>
         <i id="mp3_player" class="iconfont icon-play_icon" @click="player"></i>
@@ -9,14 +9,14 @@
         <i id="mp3_stop" class="iconfont icon-tingzhi" @click="stop"></i>
         <i id="mp3_shengyin" class="iconfont icon-shengyinkai" @click="shengyin"></i>
       </div>
-      <h1>二小1号个人主页</h1>
-      <div class="hr-img"></div>
+      <h1 lazyload>二小1号个人主页</h1>
+      <div class="hr-img" lazyload></div>
       <header>
-        <div class="yu-title"></div>
-        <div class="yu-shi"></div>
-        <div class="yu-shi2"></div>
-        <div class="move clearfix">
-          <ul class="move1 clearfix">
+        <div class="yu-title" lazyload></div>
+        <div class="yu-shi" lazyload></div>
+        <div class="yu-shi2" lazyload></div>
+        <div class="move clearfix" lazyload>
+          <ul class="move1 clearfix" lazyload>
             <li class="li1"></li>
             <li class="li2"></li>
             <li class="li3"></li>
@@ -26,7 +26,7 @@
             <li class="li7"></li>
             <li class="li8"></li>
           </ul>
-          <ul class="move2 clearfix">
+          <ul class="move2 clearfix" lazyload>
             <li class="li1"></li>
             <li class="li2"></li>
             <li class="li3"></li>
@@ -38,9 +38,9 @@
           </ul>
         </div>
       </header>
-      <div class="page-content clearfix">
+      <div class="page-content clearfix" lazyload>
         <div class="yu-xin"></div>
-        <div class="fu-shi clearfix">
+        <div class="fu-shi clearfix" lazyload>
           <div class="rotate-box clearfix">
             <div class="div1"></div>
             <div class="div2"></div>
@@ -54,7 +54,7 @@
         </div>
       </div>
       <div class="test"></div>
-      <div class="cube">
+      <div class="cube" lazyload>
         <div class="surface1"></div>
         <div class="surface2"></div>
         <div class="surface3"></div>
@@ -62,7 +62,7 @@
         <div class="surface5"></div>
         <div class="surface6"></div>
       </div>
-      <div class="box-horse">
+      <div class="box-horse" lazyload>
         <div class="clear-trojan">
           <div class="trojan-horse">
             <div class="div2"></div>
@@ -72,13 +72,13 @@
         </div>
       </div>
       <div class="tyzs"></div>
-      <div class="gif">
+      <div class="gif" lazyload>
         <div class="gif-1"></div>
         <div class="gif-2"></div>
         <div class="gif-3"></div>
         <br />
       </div>
-      <div class="gif">
+      <div class="gif" lazyload>
         <div class="gif-4"></div>
         <div class="gif-5"></div>
       </div>
